@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVG's SkillUpClub</title>
+    <link rel="stylesheet" href="style.css">
+    <link data-rh="true" rel="icon" type="image/png" href="./images/favicon.png">
+</head>
+
+<body class="overflow-x-hidden scroll-smooth">
+
+    <div class="overflow-x-hidden bg-lightGray scroll-smooth">
+
+        <!-- nav club section -->
+        <navbar class="overflow-x-hidden scroll-smooth mt-2">
+            <div class="relative w-[1080px] mx-auto flex flex-col lg:flex-row  lg:justify-between justify-start items-start lg:items-center text-2xl ">
+
+                <!-- left navbar-section -->
+                <div class="flex lg:flex-row flex-col">
+                    <a href="/" class="cursor-pointer py-0 pr-7 duration-[0.8s] ease-in-out">
+                        <img src="./images/logo.png" width="150px" height="100px" alt="" loading="lazy " class="transition-all duration-[0.5s] hover:scale-[1.7]">
+                    </a>
+                    <a href="/" class="cursor-pointer py-0 pr-7 duration-[0.8s] ease-in-out lg:flex-row ml-8">
+                        <img src="./images/PVGCOEN_NEW_LOGO__2_-removebg-preview.png" width="60px" height="50px" alt="" loading="lazy " class="transition-all duration-[0.5s] hover:scale-[1.3] mt-3">
+                    </a>
+                    
+                    <!-- <p
+                        class="text-black font-mullish cursor-pointer transition-all duration-[0.8s] relative group mt-[0.5rem] ml-[-3.1rem] text-2xl py-10 font-bold hover:text-white">
+                        PVG's Skill Up Club
+                    </p> -->
+
+
+
+                </div>
+
+
+                <!-- right navbar-section -->
+                <div>
+                    <ul class="flex space-x-4 flex-col lg:flex-row">
+
+                        <li
+                            class="text-black font-bold font-mullish py-7 cursor-pointer transition-all duration-[0.8s] relative group  hover:text-[#01a592] lg:flex ml-6">
+                            <a href="#About Club" class="scroll-smooth">About Club</a>
+                        </li>
+
+                        <li
+                            class="text-black font-bold font-mullish py-7 cursor-pointer transition-all duration-[0.8s] relative group  hover:text-[#01a592]">
+                            <a href="#Upcoming Events">Upcoming Events</a>
+                        </li>
+
+                        <li
+                            class="text-black font-bold font-mullish py-7 cursor-pointer transition-all duration-[0.8s] relative group  hover:text-[#01a592]">
+                            <a href="#Past Events">Past Events</a>
+                        </li>
+
+                        <li
+                            class="text-black font-bold font-mullish py-7 cursor-pointer transition-all duration-[0.8s] relative group  hover:text-[#01a592]">
+                            <a href="#Members">Members</a>
+                        </li>
+                        
+                        <li
+                            class="text-black font-bold font-mullish py-7 cursor-pointer transition-all duration-[0.8s] relative group  hover:text-[#01a592]">
+                            <a href="#Chapters">Chapters</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+
+        <!-- club clg section -->
+        <section style="background-image: url(./images/Background-img1.jpg)"
+
+            class="relative bg-cover bg-center w-full h-[600px] flex z-10 overflow-x-hidden">
+
+            <div class="w-10/12 max-w-[1080px] flex justify-center items-end relative mb-4 mx-auto ">
+
+                <a href="#">
+                    <button class="text-2xl border-[2px] py-[14px] pl-[28px] pr-[20px] rounded-xl font-mullish text-center font-bold text-lightGray bg-black hover:bg-[#01a592] transition-all duration-[0.5s] flex items-center gap-2">
+                        Join Us
+                        <svg viewBox="0 0 24 24" focusable="false" class="w-[18px] h-[18px] ">
+                            <path fill="currentColor"
+                                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z">
+                            </path>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+
+            <!-- <div onload = "startTimer()">
+                <img id="img" src="/images/Background-img.jpg"/>
+                <button type="button" onclick="displayPreviousImage()">Previous</button>
+                <button type="button" onclick="displayNextImage()">Next</button>
+            </div> -->
+        </section>
+
+        <!-- club Events link's sections -->
+        <!-- <section class="relative py-3">
+
+            <div class="w-11/12 max-w-[1080px] mx-auto ">
+
+                <ul class="flex lg:flex-row flex-col justify-end underline text-2xl gap-8 ">
+                    <li class="hover:text-lightBlue500">
+                        <a href="#">Upcoming Events</a>
+                    </li>
+                    <li class="hover:text-lightBlue500">
+                        <a href="#">Past Events</a>
+                    </li>
+                    <li class="hover:text-lightBlue500">
+                        <a href="#">Members</a>
+                    </li>
+                    <li class="hover:text-lightBlue500">
+                        <a href="#">Photos</a>
+                    </li>
+                </ul>
+
+            </div>
+        </section> -->
+
+        <!-- About club  -->
+        <!-- bg-[#f6f6f6] -->
+        <section id="About Club" class="py-2">
+            <div class="w-10/12 max-w-[1080px] relative mx-auto ">
+
+                <h1 class="font-mullish font-bold text-center text-[40px] leading-[1.2] mt-20 text-[#01a592] uppercase">About Club</h1>
+                <br>
+                <p class="font-mullish text-[18px] leading-7 text-black ml-10">A platform for the students to learn new
+                    technologies, explore innovative ideas, build projects and discuss programming concepts. With this
+                    club,
+                    we aim to create a community consisting of students who are into coding and are willing to dig deep
+                    into
+                    what else programming has to offer.</p>
+
+                <br>
+
+                <p class="font-mullish text-[18px] leading-7 text-black ml-10">In this rapidly growing world, everyone
+                    has
+                    to catch up with today’s exponential technology, so while competing, the youth have to be skilled.
+                    To
+                    make a stronghold in the market skills apart from academic knowledge a student should spread his
+                    roots
+                    in other essential skills like speaking, presenting, decision making, and teamwork Which also plays
+                    an
+                    important role.</p>
+
+                <br>
+
+                <p class="font-mullish text-[18px] leading-7 text-black ml-10">The prominent motive of this club is to
+                    provide accurate, adequate knowledge to the students, where they can have hands-on experience with
+                    recent technologies under the guidance of expert mentors. We aim for genuine support for the
+                    students to
+                    enhance their abilities and welcome new tech opportunities.</p>
+
+                <br>
+
+                <h3 class="font-mullish text-[18px] ml-10 text-black leading-7 font-bold uppercase">Vision:</h3>
+
+                <ul class="list-disc mt-4">
+                    <li class="font-mullish text-[18px] leading-7 text-black ml-20">To establish coding culture on
+                        campus,
+                        reaching every student passionate about coding.</li>
+                </ul>
+                <br>
+                <h3 class="font-mullish text-[18px] ml-10 text-black leading-7 font-bold uppercase">Mission:</h3>
+
+                <ul class="list-disc mt-4">
+                    <li class="ml-20  font-mullish text-[18px] leading-7 text-black">
+                        To promote the students for advanced studies for betterment towards the compositive world.
+                    </li>
+                    <li class="ml-20  font-mullish text-[18px] leading-7 text-black">
+                        To put emphasis on technical excellence with affordable education.
+                    </li>
+                    <li class="ml-20  font-mullish text-[18px] leading-7 text-black">
+                        To encourage the engineers for entrepreneurship.
+                    </li>
+                </ul>
+                <!-- <p  class="marker:text font-mullish text-[18px] leading-7 text-black ml-20 marker:text-sky-400 ">To establish coding culture on campus, reaching every student passionate about coding.</p> -->
+            </div>
+        </section>
+
+        <!-- club upcoming events section -->
+        <section id="Upcoming Events">
+            <div class="w-10/12 max-w-[1080px] mx-auto">
+
+                <h1 class="text-center font-mullish font-bold text-[40px] leading-[1.2] mt-10 text-[#01a592]">Upcoming events</h1>
+                <br>
+                <p class="font-mullish text-[18px] leading-7 text-black ml-10">There are currently no upcoming events.
+                    Please check again soon.</p>
+            </div>
+        </section>
+
+        <!-- Past Events Section-->
+        <section>
+            <div id="Past Events" class="mx-auto w-10/12 max-w-[1080px] relative">
+
+                <h1 class="font-mullish font-bold flex justify-center text-[40px] leading-[1.2] mt-20 text-[#01a592]">
+                    Past events
+                </h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative mt-8 gap-[2rem]">
+
+                    <!-- event 1 -->
+                    <a href="#" class="flex flex-col text-center">
+                        <img src="./images/First Event.jpg" alt="event1" loading="lazy" class="w-full h-[300px] border bg-cover rounded-md">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">17 OCOTOBER 2022</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">PVG SKILL UP CLUB</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center text-center">PVG's College of Engineering, Nashik</p>
+                    </a>
+
+                    <!-- event 2 -->
+                    <a href="#" class="flex flex-col text-center">
+                        <img src="./images/mongodb.jpg" alt="event1" loading="lazy" class="w-full border h-[300px] bg-cover rounded-md">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">14 NOV 2022 </p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">INTRODUCTION TO MongoDB</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">PVG's College of Engineering, Nashik</p>
+                    </a>
+
+                    <!-- event 3 -->
+                    <a href="#" class="flex flex-col text-center">
+                        <img src="./images/Hackwithnify.jpg" alt="event1" loading="lazy" class="w-full border h-[300px] bg-cover rounded-md">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">25 NOV 2022 </p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">INFYTQ & HACKWITHINFY</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">PVG's College of Engineering, Nashik</p>
+                    </a>
+
+                    <!-- event 4 -->
+                    <a href="#" class="flex flex-col text-center">
+                        <img src="./images/Flutter.jpg" alt="event1" loading="lazy" class="w-full border h-[300px] bg-cover rounded-md">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">17 FEB 2023</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">FLUTTER WORKSHOP</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">PVG's College of Engineering, Nashik</p>
+                    </a>
+
+                    <!-- event 5 -->
+                    <a href="#" class="flex flex-col text-center">
+                        <img src="./images/React.png" alt="event1" loading="lazy" class="w-full border h-[300px] bg-cover rounded-md">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">25 MARCH 2023</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">REACT JS WORKSHOP</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">PVG's College of Engineering, Nashik</p>
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Oragnizers profile's Section -->
+        <section>
+
+            <div id="Members" class="mx-auto w-10/12 max-w-[1080px] relative">
+
+                <h1 class="font-mullish font-bold text-[40px] leading-[1.2] mt-20 flex justify-center text-[#01a592]">
+                    Members
+                </h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative mt-8 gap-[2rem]">
+
+                    <!-- profile 1 -->
+                    <a href="https://www.linkedin.com/in/zashi-patil-5064791b3" class="flex flex-col">
+                        <img src="./images/Zashi patil - president.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Zashi Patil</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">President</p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 2 -->
+                    <a href="https://www.linkedin.com/in/kumar-kad-721a54169" class="flex flex-col">
+                        <img src="./images/Kumar kad - vice president.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Kumar Kad</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Vice President</p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 3 -->
+                    <a href="https://www.linkedin.com/in/jayesh-more-3332351b0" class="flex flex-col">
+                        <img src="./images/Jayesh more - secretary.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Jayesh More</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Secretary</p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 4 -->
+                    <a href="https://www.linkedin.com/in/shreyasi-bagul542" class="flex flex-col">
+                        <img src="./images/Shreyasi bagul - secretary.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Shreyasi bagul</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Secretary</p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+
+                    <!-- profile 5 -->
+                    <a href="https://www.linkedin.com/in/akashchavan23/" class="flex flex-col">
+                        <img src="./images/Akash Chavan - Graphic Design Co-ordinator.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Akash Chavan</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Graphic Design
+                            Co-ordinator
+                        </p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 6 -->
+                    <a href="https://www.linkedin.com/in/tanay-dajgude-493396238" class="flex flex-col">
+                        <img src="./images/Tanay Dajgude1- Social Media Co-ordinator.png" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Tanay Dajgude</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Social Media
+                            Co-ordinator
+                        </p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 7 -->
+                    <a href="http://www.linkedin.com/in/sakshi-jagdale-114160238" class="flex flex-col">
+                        <img src="./images/Sakshi jagdale - technical Co-ordinator.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Sakshi jagdale</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Technical Co-Ordinator
+                        </p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 8 -->
+                    <a href="https://www.linkedin.com/in/monali-borse-322a2220a" class="flex flex-col">
+                        <img src="./images/Monali Borse technical Co-ordinator.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border ">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Monali Borse</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Technical Co-Ordinator
+                        </p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="mx-auto w-10/12 max-w-[1080px] relative grid">
+                <div class="flex flex-col lg:flex-row lg:justify-center relative mt-8 gap-[2.5rem]">
+                    <!-- profile 9 -->
+                    <a href="https://www.linkedin.com/in/thete-prachi-b95032235" class="flex flex-col w-[320px]  lg:w-[250px]">
+                        <img src="./images/Prachi thete - treasurer.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Prachi thete</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Treasurer</p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+                    </a>
+
+                    <!-- profile 10 -->
+                    <a href="https://www.linkedin.com/in/sharayu-khachane-391119235" class="flex flex-col w-[320px] lg:w-[250px]">
+                        <img src="./images/Sharayu Khachane - core member.jpg" alt="profile" loading="lazy"
+                            class="rounded-[50%] w-full h-[200px] border">
+                        <br>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Sharayu Khachane</p>
+                        <p class="font-mullish leading-7 text-black text-lg flex justify-center">Core Member</p>
+                        <!-- <p class="font-mullish leading-7 text-black text-lg flex justify-center">Link</p> -->
+
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section>
+            <div class="mx-auto w-10/12 max-w-[1080px] relative flex justify-center">
+                <button
+                    class="py-4 px-8 text-white bg-black rounded-md  mt-8 text-xl font-bold hover:bg-[#01a592] transition-all duration-[0.5s]"
+                    type="submit">
+                    Contact Us
+                </button>
+            </div>
+        </section>
+
+        <!-- Chapter Section -->
+        <section id="Chapters">
+
+            <div class="mx-auto w-10/12 max-w-[1080px] relative">
+                <h1 class="font-mullish font-bold flex justify-center text-[40px] leading-[1.2] mt-20 text-[#01a592]">
+                    Chapters Photos
+                </h1>
+
+                <!-- chapter section 1 -->
+                <h3 class="font-mullish font-bold leading-3
+                mt-8 text-xl text-deepBlue color-#26397d uppercase">
+                    1.Inauguration
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative mt-8 gap-[2rem]">
+
+                    <!-- image 1 -->
+                    <img src="./Inauguration/DSC_1752.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy"> 
+
+                    <!-- image 2 -->
+                    <img src="./Inauguration/DSC_1769.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 3 -->
+                    <img src="./Inauguration/DSC_1814.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 4 -->
+                    <img src="./Inauguration/DSC_1839.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 5 -->
+                    <img src="./Inauguration/DSC_1867.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 6 -->
+                    <img src="./Inauguration/DSC_1871.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 7 -->
+                    <img src="./Inauguration/DSC_1880.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 8 -->
+                    <img src="./Inauguration/DSC_1882.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 9 -->
+                    <img src="./Inauguration/DSC_1884.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 10 -->
+                    <img src="./Inauguration/DSC_1885.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 11 -->
+                    <img src="./Inauguration/DSC_1886.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 12 -->
+                    <img src="./Inauguration/DSC_1911.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                </div>
+
+                <!-- chapter section 2 -->
+                <h3 class="font-mullish font-bold leading-3
+                mt-8 text-xl text-deepBlue color-#26397d uppercase">
+                    2.InfyTq & HackwithInfy
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative mt-8 gap-[2rem] ">
+
+                    <!-- image 1 -->
+                    <img src="./InfyTq & HackwithInfy/img1.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy" >
+
+                    <!-- image 2 -->
+                    <img src="./InfyTq & HackwithInfy/img2.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 3 -->
+                    <img src="./InfyTq & HackwithInfy/img3.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 4 -->
+                    <img src="./InfyTq & HackwithInfy/img4.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 5 -->
+                    <img src="./InfyTq & HackwithInfy/img5.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 6 -->
+                    <img src="./InfyTq & HackwithInfy/img6.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                </div>
+
+                 <!-- chapter section 3 -->
+                <h3 class="font-mullish font-bold leading-3
+                 mt-8 text-xl text-deepBlue color-#26397d uppercase">
+                    3.MongoDB Seminar
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative mt-8 gap-[2rem]">
+
+                    <!-- image 1 -->
+                    <img src="./MongoDB Seminar/img1.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 2 -->
+                    <img src="./MongoDB Seminar/img2.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 3 -->
+                    <img src="./MongoDB Seminar/img3.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 4 -->
+                    <img src="./MongoDB Seminar/img4.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 5 -->
+                    <img src="./MongoDB Seminar/img5.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 6 -->
+                    <img src="./MongoDB Seminar/img6.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 7 -->
+                    <img src="./MongoDB Seminar/img7.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 8 -->
+                    <img src="./MongoDB Seminar/img8.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                    <!-- image 9 -->
+                    <img src="./MongoDB Seminar/img9.png" alt="event photo" class="w-full h-[300px] border" loading="lazy">
+
+                </div>
+                
+                 <!-- chapter section 4 -->
+                 <h3 class="font-mullish font-bold leading-3
+                 mt-8 text-xl text-deepBlue color-#26397d uppercase">
+                    4.Flutter
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative mt-8 gap-[2rem] ">
+
+                    <!-- image 1 -->
+                    <img src="./Flutter/Flutter1.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 2 -->
+                    <img src="./Flutter/flutter8.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 3 -->
+                    <img src="./Flutter/flutter2.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 4 -->
+                    <img src="./Flutter/Flutter3.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 5 -->
+                    <img src="./Flutter/flutter4.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 6 -->
+                    <img src="./Flutter/flutter5.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 7 -->
+                    <img src="./Flutter/flutter6.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 8 -->
+                    <img src="./Flutter/flutter7.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 9 -->
+                    <img src="./Flutter/flutter9.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 10 -->
+                    <img src="./Flutter/flutter10.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 11 -->
+                    <img src="./Flutter/flutter11.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                </div>
+
+                 <!-- chapter section 5 -->
+                 <h3 class="font-mullish font-bold leading-3
+                 mt-8 text-xl text-deepBlue color-#26397d uppercase">
+                    5.React Js workshop
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative mt-8 gap-[2rem] ">
+
+                    <!-- image 1 -->
+                    <img src="./React/react1.jpg" alt="event photo" class="w-full h-[300px] border rounded-md"
+                        loading="lazy">
+
+                    <!-- image 2 -->
+                    <img src="./React/react2.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 3 -->
+                    <img src="./React/react3.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 4 -->
+                    <img src="./React/react4.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 5 -->
+                    <img src="./React/react5.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 6 -->
+                    <img src="./React/react6.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 7 -->
+                    <img src="./React/react7.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 8 -->
+                    <img src="./React/react8.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                    <!-- image 9 -->
+                    <img src="./React/react9.jpg" alt="event photo" class="w-full h-[300px] border rounded-md" loading="lazy">
+
+                </div>
+
+                <div class="absolute text-[#535c87] left-48 mt-[48px] select-none text-[5rem]">PVG's Skill Up Club</div>
+            </div>
+
+            
+        </section>
+
+        <!--horizontal line-->
+        <hr class="mt-40 border-2 border-black">
+
+        <!-- Footer Section -->
+        <footer class="py-5">
+
+            <div class="mx-auto w-10/12 max-w-[1080px] relative flex flex-col lg:flex-row justify-between items-center">
+
+                <img src="./images/logo.png" width="250px" height="80px" alt="Your Logo" loading="lazy" class="transition-all duration-[0.5s] hover:scale-[1.5] overflow-x-hidden">
+
+                <div class="flex gap-[1.2rem]">
+                    <a href="http://www.linkedin.com/in/pvg-s-skill-up-club" class="cursor-pointer transition-all duration-[0.5s] hover:scale-[1.5]" target="_blank">
+                        <img src="./images/linkedin.png" alt="" width="30px" height="10px" loading="lazy">
+                    </a>
+                    <a href="https://youtube.com/@PvgSkillupClub" class="cursor-pointer transition-all duration-[0.5s] hover:scale-[1.5]" target="_blank">
+                        <img src="./images/youtube.png" width="30px" height="10px" alt="" loading="lazy">
+                    </a>
+                    <a href="https://instagram.com/pvg_skill_up_club?igshid=YmMyMTA2M2Y=" 
+                    class="cursor-pointer transition-all duration-[0.5s] hover:scale-[1.5]"
+                        target="_blank">
+                        <img src="./images/instagram.png" width="30px" height="10px" alt="" loading="lazy">
+                    </a>
+                    <a href="" class="cursor-pointer transition-all duration-[0.5s] hover:scale-[1.5]" target="_blank">
+                        <img src="./images/twitter.png" width="30px" height="10px" alt="" loading="lazy">
+                    </a>
+                    <a href="https://github.com/PVG-SKILLUP-CLUB" class="cursor-pointer transition-all duration-[0.5s] hover:scale-[1.5]" target="_blank">
+                        <img src="./images/github.png" width="30px" height="10px" alt="" loading="lazy">
+                    </a>
+                    <a href="https://chat.whatsapp.com/HMzahDu61BzBM8JaCe2WlB" class="cursor-pointer transition-all duration-[0.5s] hover:scale-[1.5]" target="_blank">
+                        <img src="./images/whatsapp.png" width="30px" height="10px" alt="" loading="lazy">
+                    </a>
+
+                </div>
+                
+            </div>
+            <div class="flex justify-between px-20 bg-[#21324c] text-white py-6 relative bottom-0 top-3 text-xs">
+                <p>
+                    © 2023 Pune Vidyarthi Griha's College of Engineering & S.S. Dhamankar Institute of Management, Nashik.
+                </p>
+                <p>
+                    Created By Decoders
+                </p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
